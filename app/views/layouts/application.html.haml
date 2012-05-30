@@ -2,13 +2,13 @@
 %html
   %head
     %meta{:name => "viewport", :content => "width=device-width, initial-scale=1"}
-    %title= content_for?(:title) ? yield(:title) : "Quipper"
+    %title= content_for?(:title) ? yield(:title) : "Acme Limited"
     = stylesheet_link_tag    "application", :media => "all"
     = javascript_include_tag "application"
     = csrf_meta_tags
   %body
     %header.container
-      = link_to image_tag('quipper_logo.png', alt: 'Quipper'), root_path
+      = link_to 'Acme Limited TODO', root_path, class: 'header-title'
     .navbar
       = render 'layouts/navigation'
     #main.container

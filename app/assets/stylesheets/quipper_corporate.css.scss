@@ -109,6 +109,18 @@ body {
   @include last-child-radius(2.5em);
 }
 
+.header-title {
+  display: block;
+  color: #525252;
+  font-size: 38px;
+  font-weight: bold;
+  margin-top: 15px;
+  &:hover {
+    color: #525252;
+    text-decoration: none;
+  }
+}
+
 @media (max-width: 480px) {
   #task_search {
     margin: 10px 0;

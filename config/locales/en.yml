@@ -3,7 +3,7 @@
 
 en:
   hello: "Hello world"
-  quipper_todo: "Quipper TODO"
+  quipper_todo: "Acme Limited TODO"
   quipper_explanation: |
     This is an example application prepared by CodeScrum Ltd. 
     It showcases a responsible design supporting mobile devices, search functionality, multiple filters, pagination, sorting and AJAX among other features.
